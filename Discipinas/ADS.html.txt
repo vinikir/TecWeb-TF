@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head> <title>GRADUAÇÃO EM ANALISE EDESENVOLVIMENTO DE SISTEMAS</title> 
+</head>
+
+<body>
+ 
+	1º Semestre
+<p>Comunicação e Expressão</p>
+<p>Fundamentos de Banco de Dados</p>
+<p>Introdução a Internet das Coisas - IoT</p>
+<p>Linguagem de Programação I</p>
+<p>Lógica de Programação</p>
+<p>Matemática Aplicada</p>
+	<h3>Comunicação e Expressão</h3>
+<p>Redija textos com os princípios de coesão e coerência, objetividade, concisão e clareza, dominando as regras 		gramaticais, localizando erros e corrigindo-os. Saiba reconhecer e produzir textos empresariais (correio eletrônico, memorandos e relatórios), introduzir as diretrizes para a elaboração de textos objetivos, concisos e claros, sem vícios de linguagem.</p>
+	<h3>Fundamentos de Banco de Dados</h3>
+<p>Domine os Fundamentos de Banco de Dados e a Modelagem Conceitual. Conheça o Esquema Lógico Relacional a partir do Esquema Conceitual, utilize a normalização de relações para elevar a qualidade do Projeto Lógico de BD. Aprendendo na prática, realize projetos de Bando de Dados, identifique problemas e apresente soluções, utilizando conceitos, modelos e esquemas de banco de dados. Prepare-se para trazer melhorias nos processos de Engenharia de Software adotados pelas empresas ao incorporar práticas consagradasde Modelagem e Projeto de Banco de Dados.</p>
+	<h3>Introdução a Internet das Coisas - IoT</h3>
+    <p>Introdução a Internet das Coisas - IoT</p>
+	<h3>Linguagem de Programação I</h3>
+<p>Conheça as etapas de geração de um programa e domine as estruturas básicas de controle de fluxo na linguagem de programação Java. Desenvolva a técnica de refinamentos sucessivos na solução de problemas, aprendendo a decompor um problema em subtarefas ou módulos. Conheça a manipulação das estruturas de dados na linguagem de programação Java.</p>
+   <h3>Lógica de Programação</h3>
+<p>Você conhece a lógica de programação de computadores, dominando as estruturas básicas de controle de fluxo e de repetição, desenvolvendo a técnica de refinamentos sucessivos na solução de problemas, aprendendo a decompor um problema em sub-tarefas ou módulos. Conheça ainda as Estruturas de Dados na solução de problemas, desenvolvendo as estruturas de dados homogêneas: vetores e matrizes.</p>
+   <h3>Matemática Aplicada</h3>
+   <p>Conheça os conceitos fundamentais de lógica formal, dominando os métodos matemáticos e estatísticos para análise de conjuntos de dados. Saiba quais operações matemáticas devem ser realizadas para tratamento e representação de dados. Além disso, conheça a geração de medidas estatísticas capazes de subsidiar o profissional de informática no entendimento e programação de sistemas que envolvam cálculos.</p>
+   
+   2º Semestre
+   <p>Ambiente de Desenvolvimento e Operação - DevOps</p>
+   <p>Engenharia de Software</p>
+   <p>Gestão de Projetos</p>
+   <p>Língua Brasileira de Sinais - LIBRAS (Optativa)</p>
+   <p>Linguagem de Programação II</p>
+   <p>Linguagem SQL</p>
+   <p>Sociedade e Sustentabilidade (Optativa)</p>
+   <p>Tecnologia Web</p>
+   
+   <h3>Ambiente de Desenvolvimento e Operação - DevOps</h3>
+<p>Ambiente de Desenvolvimento e Oo - DevOps</p>
+   <h3>Engenharia de Software</h3>
+<p>Engenharia de software</p>   
+   <h3>Gestão de Projetos</h3>
+<p>Abordar conceitos fundamentais referentes à gestão de projetos assim sua importância com a tecnologia da informação, gerenciando, analisando e administrando de forma que a estratégia da empresa seja alcançada.</p>
+   <h3>Língua Brasileira de Sinais - LIBRAS (Optativa)</h3>
+<p>As Línguas de Sinais (LS) são línguas naturais das comunidades surdas. Ao contrário do que muitos imaginam as Línguas de Sinais não são simplesmente mímicas e gestos soltos, utilizados pelos surdos para facilitar a comunicação. São línguas com estrutura gramaticais próprias. Atribui-se às Línguas de Sinais o status de língua por que elas também são compostas pelos níveis linguísticos: o fonológico, o morfológico, o sintático e o semântico.</p>
+   <h3>Linguagem de Programação II</h3>
+   <p>Desenvolva uma lógica de raciocínio para organizar os elementos necessários no desenvolvimento de um programa orientado a objetos. Você será capaz de modelar problemas utilizando Estruturas de Dados e aplicar os conceitos na linguagem de programação Java, construindo uma estrutura de dados orientada a objetos.</p>
+   <h3>Linguagem SQL</h3>
+   <p>Conheça uma linguagem para definição e manipulação de dados em Sistemas de Banco de Dados. Domine os recursos da linguagem SQL, criando uma base sólida de consulta. Realize operações relacionais em Banco de Dados relacional e saiba representar problemas utilizando Modelo de Dados.</p>
+<p>Você ainda pode dominar os procedimentos de transação, criação e uso de views, funções, stored procedures e triggers.</p>
+	<h3>Sociedade e Sustentabilidade (Optativa)</h3>
+    <p>Oferecer ao aluno uma análise da questão socioambiental considerando os seguintes eixos de abordagem:&nbsp;<br />
+(a)a relação sociedade-ambiente e suas implicações em variadas dimensões (econômica, ética, tecnológica e cultural);<br />
+(b)significados e implicações do conceito de sustentabilidade;<br />
+(c)práticas e ações cidadãs envolvendo a dimensão socioambiental.<br />
+O objetivo da disciplina é o de contribuir para a formação de profissionais e cidadãos capacitados e comprometidos eticamente com a problemática socioambiental.</p>
+	<h3>Tecnologia Web</h3>
+    <p>Conheça e domine as principais etapas para a construção e publicação de um site para a web, conhecendo as linguagens HTML/XHTML, CSS e JavaScript e desenvolvendo aplicações web dinâmicas com a linguagem PHP.</p>
+    
+    3º Semestre
+    <p>Análise e Modelagem de Sistemas</p>
+    <p>Desenvolvimento de Aplicações Distribuídas</p>
+    <p>Estrutura de Dados</p>
+    <p>Interface Homem-Computador</p>
+    <p>Modelagem de Processos de Negócio</p>
+    <p>Oficina de Projeto de Empresa 1 - OPE1</p>
+    
+    <h3>Análise e Modelagem de Sistemas</h3>
+<p>Você será capaz de especificar integralmente o comportamento do sistema de software a ser desenvolvido como um documento denominado SRS (Software Requirements Specifications). Avalie ainda os documentos SRS para garantir a qualidade do produto e desenvolva o projeto de conclusão de curso.</p>
+    <h3>Desenvolvimento de Aplicações Distribuídas</h3>
+<p>Construa aplicações gráficas na linguagem C# (CSharp), aplicando os conceitos de orientação a objetos. Você irá utilizar as funcionalidades providas pelo arcabouço ADO.NET para acessar bases de dados, agilizando o desenvolvimento de aplicações através do uso de um ambiente integrado de desenvolvimento (IDE).</p> 
+<p>Seja capaz de codificar utilizando boas práticas de estilo de programação, escolhendo o servidor de aplicação que melhor atenda as necessidades de uma aplicação Web.</p>
+    <h3>Estrutura de Dados</h3>
+<p>Desenvolva estruturas de dados lineares (listas, pilhas, filas) e não lineares (árvores), utilize estruturas de dados para solucionar problemas computacionais, escolhendo as mais adequadas para cada situação e construindo estruturas de dados orientadas a objetos.</p>
+    <h3>Interface Homem-Computador</h3>
+<p>Interface Homem-Computador</p>
+    <h3>Modelagem de Processos de Negócio</h3>
+<p>Modelagem de Processos de Negócio</p>
+    <h3>Oficina de Projeto de Empresa 1 - OPE1</h3>
+<p>Oficina de Projeto de Empresa 1 - OPE1</p>
+    
+    4º Semestre
+    <p>Arquitetura e Projeto de Sistemas</p>
+    <p>Desenvolvimento para Dispositivos Móveis</p>
+    <p>Desenvolvimento para Internet das Coisas - IoT</p>
+    <p>Legislação e Ética</p>
+    <p>Oficina de Projeto de Empresa 2 - OPE2</p>
+    <p>Qualidade de Software</p>
+    
+    <h3>Arquitetura e Projeto de Sistemas</h3>
+<p>Aplique a arquitetura de um sistema utilizando as melhores práticas de Engenharia de Software, desenvolva projetos de sistemas utilizando Reuso, Componentização e FrameWorks, sistemas utilizando Design Patterns e com os diversos tipos de arquitetura em diferentes aplicações.</p>
+    <h3>Desenvolvimento para Dispositivos Móveis</h3>
+<p>Desenvolva aplicações para dispositivos móveis utilizando os diversos componentes visuais, banco de dados, e com conhecimento de acesso à internet no desenvolvimento de aplicações móveis. Entenda ainda o conceito de integração de aplicações no mundo de mobilidade.</p>
+    <h3>Desenvolvimento para Internet das Coisas - IoT</h3>
+<p>Desenvolvimento para Internet das Coisas - IoT</p>
+    <h3>Legislação e Ética</h3>
+<p>Legislação e Ética</p>
+    <h3>Oficina de Projeto de Empresa 2 - OPE2</h3>
+<p>Oficina de Projeto de Empresa 2 - OPE2</p>
+    <h3>Qualidade de Software</h3>
+<p>Conheça os conceitos de Qualidade do Produto e Qualidade do Processo, assim como os principais Modelos de Maturidade de Software. Saiba calcular o tamanho do Software através da técnica de Estimativa de Pontos de Função, criando e planejando as atividades de teste de um projeto de Software.</p>
+</body>
+</html>
