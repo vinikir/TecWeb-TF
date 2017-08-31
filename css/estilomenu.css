@@ -66,8 +66,23 @@ display:none;
 .login {margin-left: 1050px;}
 
 
-#roda{list-style:none;text-decoration: none;}
+footer{
+border:2px solid #FF1493;
+color: #FFFAFA;
+border-RADIUS:15PX;
+PADDING:5px}
 
-#not{padding:20px 20px;}
 
-#banner {}
+ 
+#sub_cursos ul li {
+	margin-left:150px;
+	width:20px;
+	height:20px;
+	list-style:none;
+	display: inline;
+
+}
+
+
+
+
