@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+/* CSS Document */
+
+body{
+	background-color: black;
+}
+/*ESTILO DO MENU*/
+.menu ul{
+	padding:0px;
+	margin: 30px;
+	background-color: #ff0080;
+	list-style: none;
+
+}
+.menu  li.item:hover {
+	display: block;
+	border:0.5px solid #FF1493;
+    padding: 10px;
+	
+}
+.menu ul li.item{
+	display:inline;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	border-radius:3px;
+	
+}
+.menu ul li {
+	display:none;
+}
+.menu ul li a{
+	padding: 2px 10px;
+	display: inline;
+	background-color: black;
+	color:white;
+	text-decoration: none;
+}
+/*ESTILOS DOS TÍTULOS*/
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: #FF1493;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+
+article{
+	display:block;
+	float: left;
+}
+/*ESTILOS DOS CURSO*/
+.borda{
+	float: left;
+	border: 1px #FF1493 solid;
+	width: 250px;
+	height: 80px;
+	padding: 15px;
+}
+/*ESTILOS DE LINKS*/
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+	}
+a:hover {
+color: deeppink;
+	}
+footer{
+	float: left;
+	margin-top: 100px;
+	margin-right: 300px;
+
+	margin-left: 500px;
+	font-family:'Roboto', sans-serif;
+	font-size:16px;
+	color: white;
+}
