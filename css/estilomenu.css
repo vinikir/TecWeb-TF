@@ -70,7 +70,9 @@ footer{
 border:2px solid #FF1493;
 color: #FFFAFA;
 border-RADIUS:15PX;
-PADDING:5px}
+PADDING:5px
+text-align:center;
+}
 
 
  
@@ -84,5 +86,5 @@ PADDING:5px}
 }
 
 
-
+footer
 
