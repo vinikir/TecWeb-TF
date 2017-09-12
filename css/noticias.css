@@ -7,14 +7,17 @@ body{
 	color:#FFFAFA;
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
+	text-align:center;
 }
 footer{
 	border:2px solid #FF1493;
 	color: #FFFAFA;
-	border-RADIUS:15PX;
-	PADDING:5px
+	border-RADIUS:25PX;
+	PADDING:5px;
+	text-align: center;
+	display: inline;
 }
-#------------
+
 /* CSS Document */
 .logo{
 	height: 100px;
@@ -24,10 +27,9 @@ footer{
 .logo img{
 	float: left;
 	max-width: 100%;
-	max-height: 60%;
+	max-height: 80%;
 }
-body{
-	background-color: black;
+
 }
 /*ESTILO DO MENU*/
 .menu{
@@ -86,17 +88,75 @@ h2 p {
 	text-align: center;
 	
 }
-.main{
-	width: 279px;
-	height: 220px;
-	background:  #ff0080;
-	padding: 0px;
-	border: 1px solid #ff0080;
-	margin: 210px;
-	display: inline-grid;
-	display: inline-block;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap ;
+/*grid*/
+* {
+	margin: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
+/*conteiner*/
+.conteiner {
+	width: 100;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px 20px;
+	display: inline;
+}
+@media (min-width: 1170px) {
+	.conteiner{
+		max-width: 1170px;
+		padding: 0;
+		
+	}
+}
+/*linha*/
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.row:after {
+	clear: both;	
+}
+/*colunas*/
+.col{
+	display: inline-block;
+	vertical-align: top;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+	margin-right: -4px;
+	*zoom:1;
+	*display: inline;
+}
+@media (min-width: 480px) {
+	.col-2{
+		width: 50%;
+	}
+/*tres colunas*/
+@media (min-width: 728px) {
+	.col-3 {	
+		width: 33.3333%;
+		text-align:left;
+	}
+}
+/*flexbox*/
+.cabecalhoPrincipal-titulo {
+	display: inline-block;
+}
+.cabecalhoPrincipal-nav {
+	display: inline-block;
+}
+	.contentfinal {
+		width: 300px;
+		height: 50px;
+		display: flex;
+		flex-direction: row; 
+		flex-basis: auto;
+		border-bottom: 3px #ff0080 solid;
+		justify-content: space-between;
+	}
+
