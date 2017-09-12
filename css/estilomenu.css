@@ -1,4 +1,11 @@
-* {box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700'); /*letra roboto*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}                           /*navegador comtabilizar distancias com a borda*/
+
+
 
 
 body{
@@ -8,71 +15,67 @@ body{
 	color:#FFFAFA;
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
+	margin: 0px;
 }
 
 a:link 
 { 
  text-decoration:none; 
-
 }
+
+
+/*-----estilo do menu-----------*/
+.menu a {
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto';
+	
+	}
+
 .menu {
 	align-items: center;
 	display:grid;                                          /*abre um grid*/
-	grid-template-collumns: 50%;
-	grid-template-areas:'collumn1 collumn2 collumn3 collumn4 collumn5 collumn6 collumn7 ';
-	color:#FFFAFA;
-	font-family: 'Roboto';
-
+	grid-template-collumns:20px;
+	grid-template-rows:20px;
+	justify-content: space-around;
+	display:flex;
+	flex-direction:row;
+	
+	
 	
 }
 
-.mainCollumn1{}
-.mainCollumn2{grid-area:collumn2; background-color: pink;}
-.mainCollumn3{grid-area:collumn3; background-color: red;}
-.mainCollumn4
-.mainCollumn5
-.mainCollumn6
-.mainCollumn7
+.logo{position: relative;}
 
 
+.mainBanner{
+	display: grid;
+	grid-template-collumns:50%;
+	grid-template-areas:'banner banner ';
 
-
+}
 
 
 .menu{
 	
 	text-align: center;
 	text-decoration: none !important;
-	list-style: none;
 	position:relative;
 	font-family: 'Roboto', sans-serif ;
 	float:none;			
 }
 
-.faculdade{text-align: center;}
 
-.menu ul  {
-position:relative;
-display:none;
-
-}
-
-.menu li a {
-	color:#FFFAFA;
-	font-family: 'Roboto', sans-serif;
-
-}
-
-
-.menu  li:hover {
+.menu a:hover {
 	display: block;
 	border:0.5px solid #FF1493;
+	padding: 10px;
     
 	
 }
 
-
-
+/*----------------------------*/
+.faculdade{text-align: center;}
 
 footer{
 border:2px solid #FF1493;
@@ -93,14 +96,34 @@ text-align:center;
 
 }
 
+.comentUm{border:2px solid #FF1493 ;}
+.comentDois{border:2px solid #FF1493 ;}
+.comentTres{border:2px solid #FF1493 ;}
+.comentQuatro{border:2px solid #FF1493 ;}
 
-
-.comentarios{
+.comentarios h1{
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
- .teste{flex-direction: column; }
- .banner{width: 100%;}
- .menu {flex-direction: column;}
+.comentarios {
+	display: grid;
+	grid-template-areas:'coment1 coment2 coment3 coment4'
+	
+
 }
+/*-----------------config responsivo---------------*/
+@media only screen and (max-width: 500px) {
+ .teste{display:flex;flex-direction: column;}
+ .mainBanner{width: 100%;}
+ .comentarios{display:flex;flex-direction: column;}
+ .menu{padding: 0px;}
+ .menu a {padding: 0px;}
+
+
+
+}
+
+
+
+
+/*-------------------------------------------------*/
