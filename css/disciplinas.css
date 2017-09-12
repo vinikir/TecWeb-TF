@@ -1,12 +1,6 @@
 
 @charset "utf-8";
 
-.footer{
-border:2px solid #FF1493;
-color: #FFFAFA;
-border-RADIUS:15PX;
-PADDING:5px;}
-
 /*ESTILO DO MENU*/
 ajusteTela{
 	display: grid;
