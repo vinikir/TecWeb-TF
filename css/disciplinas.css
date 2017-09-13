@@ -1,17 +1,40 @@
 
 @charset "utf-8";
-
+*{
+	font-family:'roboto' sans-serif;
+	font-size:20px;
+}
 /*ESTILO DO MENU*/
-ajusteTela{
+.ajusteTela{
 	display: grid;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 20px;
+	font-family:'roboto',sans-serif;
+	font-size:20px;
 }
-@media screen and(max-width: 768px){
-	.menu{width:100%;}
+@media (min-width: 500px){
+	.ajusteTela{
+	min-width: 500px;
+	padding: 0;}
 	}
+	footer{
+		width:100%;
+	}
+.ajusteTela2{
+	position:relative;
+	font-family:'roboto',sans-serif;
+	font-size:20px;
+	color:white;
+	list-style:none;
+	display:grid;
+	flex-row:row;
+	
+
+}	
+
+
 .logo{
 	height: 100px;
 	width: 200px;
@@ -22,15 +45,29 @@ ajusteTela{
 	max-width: 100%;
 	max-height: 60%;
 }
+
+.test{position:relative;
+font-size:30px;
+color:white;
+font-family:'roboto',sans-serif;
+}
 .menu{
-	border-bottom: 1px #ff0080 solid;
 	width: 100%;
-	height: 70px;
+	align-items: center;
+	display:grid;                                          /*abre um grid*/
+	grid-template-collumns:20px;
+	grid-template-rows:20px;
+	justify-content: space-around;
+	display:flex;
+	flex-direction:row;
 	color:white;
+	font-size:20px;
+	font-family:'roboto', sans-serif;
+	
 }
 .menu ul{
 	padding:0px;
-	margin: 30px;
+	
 	list-style: none;
 }
 .menu  li.item:hover {
@@ -100,17 +137,14 @@ p{
 
 
 /*ESTILO DO RODAPÉ*/
-.footer{
+footer{
 	border:2px solid #FF1493;
-	float: left;
-	margin-top: 20px;
-	margin-right: 400px;
-	margin-bottom:20px;
-	margin-left: 400px;
-	font-family:'Roboto', sans-serif;
-	font-size:16px;
-	color: white;
+	color: #FFFAFA;
+	border-RADIUS:25PX;
+	PADDING:5px;
+	text-align:center;
+	display: inline;
+	margin-left: 0 px;
+	margin-right: 0 px;
 }
-
-
 
