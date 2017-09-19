@@ -1,63 +1,66 @@
 @charset "utf-8";
 
-/**/
-ajusteTela{
-	display: grid;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 20px;
-}
+/*Grid*/
 .main{
 	display:grid;
-	grid-template-areas:"header header";
-	grid-template-rows:50%;
-	font-family: 'Roboto';
+	display:flex;
+	flex-direction:row;
+	font-family:'Roboto',sans-serif;
+	text-align:center;
+	font-weight:bolder;
+	font-size:22;
 }
-@media screen and(max-width: 768px){
-	.menu{width:100%;}
+.item{
+	width:150px;
+	height:70px;
 	}
+/*main para diminuir*/
+@media screen and (max-width: 700px){
+img{display:none}
+}
+@media screen and (max-width: 600px){
+	.main{font-size:20;
+	display:flex;
+	flex-direction:column;}
+}
 /* ESTILO DO MENU */
 .logo{
+	grid-area: img;
 	height: 70px;
 	width: 200px;
 	float: left;
 }
 nav{
-	display:inline;
-	float:left;
-	color:white;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 21px;
+	grid-area: nav;
+	background-color:#000;
 }
 .item:hover{
 	display: block;
 	background-color: #ff0080;
-	padding-top: 25px;
-	padding-left: 20px;
+	width:150px;
+	height:70px;
 }
 a{
 	padding: 0px 10px;
 	display: inline;
-	
 	color:white;
 	text-decoration: none;
 }
 /* ESTILO DA IMAGEM */
-img{
-	max-width:100%;
-	grid-area: img;
-}
+
+
 /*ESTILO DO FUNDO*/
 body{
 	background-color: black;
 }
 
 /*ESTILO DE TEXTO*/
+.test{
+	font-family:'roboto',sans-serif;
+	position: justify;
+	font-size:24px;
+	color: #FF1493;
+}
 h1{
 	font-size: 22px;
 }
@@ -73,14 +76,6 @@ h1,h2,h3{
 	text-align: justify;
 	text-transform: uppercase;	
 }
-h4{
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	color: #FF1493;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: underline;
-}
 p{
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -88,18 +83,6 @@ p{
 	color: white;
 	text-align: justify;
 	text-indent: 30px;
-}
-form{
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-size: 16px;
-	color: #FF1493;
-	text-align: center;
-	text-indent: 0px;
-	text-decoration: underline ;
-	border:2px solid #FF1493;
-	border-RADIUS:15PX;
-}
 }
 /*ESTILO DO RODAPÉ*/
 footer{
