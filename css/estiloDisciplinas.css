@@ -1,115 +1,67 @@
 
 @charset "utf-8";
-*{
-	font-family:'roboto' sans-serif;
-	font-size:20px;
-}
-/*ESTILO DO MENU*/
-.ajusteTela{
-	display: grid;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 20px;
-	font-family:'roboto',sans-serif;
-	font-size:20px;
-}
-@media (min-width: 500px){
-	.ajusteTela{
-	min-width: 500px;
-	padding: 0;}
-	}
-	footer{
-		width:100%;
-	}
-.ajusteTela2{
-	position:relative;
-	font-family:'roboto',sans-serif;
-	font-size:20px;
-	color:white;
-	list-style:none;
+
+/*Grid*/
+.main{
 	display:grid;
-	flex-row:row;
-	
-
-}	
-
-
+	display:flex;
+	flex-direction:row;
+	font-family:'Roboto',sans-serif;
+	text-align:center;
+	font-weight:bolder;
+	font-size:22;
+}
+.item{
+	width:150px;
+	height:70px;
+	}
+/*main para diminuir*/
+@media screen and (max-width: 700px){
+img{display:none}
+}
+@media screen and (max-width: 600px){
+	.main{font-size:20;
+	display:flex;
+	flex-direction:column;}
+}
+/* ESTILO DO MENU */
 .logo{
-	height: 100px;
+	grid-area: img;
+	height: 70px;
 	width: 200px;
 	float: left;
 }
-.logo img{
-	float: left;
-	max-width: 100%;
-	max-height: 60%;
+nav{
+	grid-area: nav;
+	background-color:#000;
 }
-
-.test{position:relative;
-font-size:30px;
-color:white;
-font-family:'roboto',sans-serif;
-}
-.menu{
-	width: 100%;
-	align-items: center;
-	display:grid;                                          /*abre um grid*/
-	grid-template-collumns:20px;
-	grid-template-rows:20px;
-	justify-content: space-around;
-	display:flex;
-	flex-direction:row;
-	color:white;
-	font-size:20px;
-	font-family:'roboto', sans-serif;
-	
-}
-.menu ul{
-	padding:0px;
-	
-	list-style: none;
-}
-.menu  li.item:hover {
+.item:hover{
 	display: block;
 	background-color: #ff0080;
-	padding-top: 25px;
-	padding-left: 20px;
+	width:150px;
+	height:70px;
 }
-.menu ul li.item{
-	display:inline;
-	float:left;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 21px;	
-}
-.menu ul li {
-	display:none;
-}
-.menu ul li a{
+a{
 	padding: 0px 10px;
 	display: inline;
 	color:white;
-	text-decoration: none;	
+	text-decoration: none;
 }
+/* ESTILO DA IMAGEM */
 
 
 /*ESTILO DO FUNDO*/
 body{
 	background-color: black;
 }
-img{
-	padding: 10px;
-	width: 1300px;
-	height: 480px;
-}
-
 
 /*ESTILO DE TEXTO*/
+.test{
+	font-family:'roboto',sans-serif;
+	position: justify;
+	font-size:24px;
+	color: #FF1493;
+}
 h1{
 	font-size: 22px;
 }
@@ -123,8 +75,7 @@ h1,h2,h3{
 	font-family: 'Roboto', sans-serif;
 	color: #FF1493;
 	text-align: justify;
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 }
 p{
 	font-family: 'Roboto', sans-serif;
@@ -134,17 +85,12 @@ p{
 	text-align: justify;
 	text-indent: 30px;
 }
-
-
 /*ESTILO DO RODAPÉ*/
 footer{
-	border:2px solid #FF1493;
-	color: #FFFAFA;
-	border-RADIUS:25PX;
-	PADDING:5px;
+	color:white;
 	text-align:center;
-	display: inline;
-	margin-left: 0 px;
-	margin-right: 0 px;
+	border:2px solid #FF1493;
+	border-RADIUS:15PX;
+	PADDING:5px
 }
 
