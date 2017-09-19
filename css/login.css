@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color: black;
+	font-size:20px;
+	font-family:'roboto',sans-serif;
+	font-weight:bolder;
+	color:white;
+}
+footer{
+	background-color:black;
+	height:50px;
+	border:2px solid #FF1493;
+	color: #FFFAFA;
+	text-align: center;
+	border-radius: 15px;
+	
+}
+
+
+.cor{
+	display:inline;
+	border-radius: 5px;
+}
+.loginboxinterno{
+	display:grid;
+	width: 410px;
+	height: 310px;
+	border-radius: 8px;
+	text-align:center;
+	color:white;
+	font-family:'roboto',sans-serif;
+	width:600px;
+	height:400px;
+	justify-content:space-around;
+	border:1px solid #ff1793;
+	
+}
+.input-div{
+	margin: 20px;
+	padding: 5px;
+	background-color: black;
+	border-radius: 8px;
+}
+.input-div input{
+	width: 310px;
+	height: 25px;
+	padding-left: 5px;
+	font: normal 13px sans-serif;
+	border-radius:8px;
+	border:2px solid #ff0080;
+	outline: none;
+	display: inline;
+}
+.input-div{
+	background-color: gray;
+}
+.input-div:input{
+	border-color: black;
+}
+@media only screen and (min-width: 480px){
+	.menu{
+	display:flex;
+	}
+}
+
+/*ESTILO DO MENU*/
+.menu{
+	
+	width: 100%;
+	height: 90px;
+	
+}
+.menu ul{
+	padding:0px;
+	margin: 20px;
+	list-style: none;
+	
+
+}
+.menu  li.item:hover {
+	display: block;
+	background-color: #ff0080;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+.menu ul li.item{
+	display:inline;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 21px;
+	
+}
+.menu ul li {
+	display:none;
+}
+.menu ul li a{
+	padding: 0px 10px;
+	display: inline;
+	
+	color:white;
+	text-decoration: none;	
+}
+@media only screen and (min-width: 480px){
+	.menu{
+	display:flex;
+	}
+}
+
+
+.siga{color:white;
+		font-size:23px;
+		font-family:'roboto',sans-serif;
+		font-weight:bolder;
+		text-align:center;}
+
+
+
+
+
+.test{
+	text-align:center;
+}
+
+
+button{background-color:#ff1793;
+color:white;
+border-radius:15px;
+border-color:#ff1793;
+font-size:20px;
+padding:4px;
+}
+
+
+
+
+
+.linha1{padding:5px;}
+.linha2{padding:55px;}
+.linha3{padding:50px;}
+.linha4{padding:50px;}
+.linha5{padding:60px;}
+
+
+.naa{
+	display:grid;
+	display:flex;
+	justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
