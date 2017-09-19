@@ -26,7 +26,7 @@ a{
 	flex-direction: row;
 	text-align:center;
 	justify-content: center;
-	
+	align-items: center;
 }
 
 
@@ -76,7 +76,7 @@ a{
 	display:grid;
 	background-color: #FF1493;
 	height: 50px;
-	
+	align-items: center;
 	}
 
 
