@@ -137,8 +137,8 @@ h2 p {
 }
 /*linha*/
 .row {
-	margin-left: -5px;
-	margin-right: -5px;
+	margin-left: +5px;
+	margin-right: +5px;
 }
 .row:after {
 	clear: both;	
@@ -174,7 +174,7 @@ h2 p {
 	display: inline-block;
 }
 	.contentfinal {
-		width: 300px;
+		width: 30%;
 		height: 50px;
 		display: flex;
 		flex-direction: row; 
@@ -182,4 +182,3 @@ h2 p {
 		border-bottom: 3px #ff0080 solid;
 		justify-content: space-between;
 	}
-
