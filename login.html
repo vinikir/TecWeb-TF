@@ -3,56 +3,43 @@
 <head>
 <meta charset="utf-8">
 <title>Impacta login</title>
-<link rel="stylesheet" href="login.css" type="text/css"/>
-	<style>
-		@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-	</style>
+<link rel="stylesheet" href="css/login.css" type="text/css"/>
 	<meta charset="utf-8"/>
     <meta name="Cristopher Crispim dos Santos R.A: 1701604"/>
  	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
+
 <body>
 <header>
-<div class="logo">
-	<img src="img\logo-novo.png" width="230" height="60" />
+<div class="header">
+	<img class="logo" src="img/logo-novo.png"/>
+        <nav class="item"><a href="index.html">A Impacta</a></nav>  
+        <nav class="item"><a href="graduacao.html">Cursos</a></nav>
+        <nav class="item"><a href="#">Eventos</a></nav>
+        <nav class="item"><a href="noticias.html">Noticías</a></nav>
+        <nav class="item"><a href="#">Blog</a></nav>
+        <nav class="item"><a href="contato.html">Contatos</a></nav>
+		<nav class="item"><a href="login.html">Login</a></nav>
 </div>
-<nav class="menu">
-	<ul>
-            <li class="item"><a href="../index.html">A Impacta</a></li> 
-            <li class="item"><a href="../graduacao.html">Cursos</a></li>
-            <li class="item"><a href="#">Eventos</a></li>
-            <li class="item"><a href="../noticias.html">Noticías</a></li>
-            <li class="item"><a href="#">Blog</a></li>
-            <li class="item"><a href="#">Contatos</a></li>
-            <li class="item"><a href="login.html">Login</a></li>
-        </ul>
-	</nav>
-</header><br/><br/> <br/>
-<nav class="naa">
-	<nav class="loginboxinterno">
-	<form>
-		
-			<span class="linha1"><label for="Digite_R.A">Digite seu R.A ou E-mail:</label></span>
-			<span class="linha2"><label for="digite_senha">Digite sua senha:</label><br/><br/></span>
-				<span class="linha3"><input type="text" name="ra"></span>
-				<span class="linha4"><input type="password" name="senha"></span><br/><br/><br/>
-				<input type="checkbox"/>Lembre-se de mim <br/><br/>
-			<span class="linha5"><a href="esqueci_senha.html">Esqueci a senha</a></span>
-			<a href="cadastro.html">Novo cadastro</a><br/><br/><br/><br/> 
-		<button type="submit">Enviar</button>
-		<button type="reset">Limpar</button>
-	</form>
-		</nav>
-</nav>
-<br/><br/> <br/>
-		<nav class="test">
-		<nav class="siga">SIGA A IMPACTA</nav>
-        <a href="https://twitter.com/facimpacta"><img src="img/tw.png" alt="logo_twiter"></a>
-        <a href="https://www.youtube.com/user/GrupoImpacta"><img src="img/you.png" alt="logo_youtube"></a>
-        <a href="https://www.facebook.com/FacImpacta/"><img src="img/face.png" alt="logo_facebook"></a>
-        <a href="https://www.instagram.com/facimpacta/"><img src="img/insta.png" alt="logo_instagram"></a>
-        <a href="https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006/"><img src="img/lin.png" alt="logo_linkedin"></a>
-</nav>   <br/><br/>  
+<div class="login">
+		<form id="formulario" action="recuperarSenha" method="post">
+			<div class="campo">
+                <label for"email">RA ou Email</label><br/>
+                <input type="text" name="email" id="email" size="20"/><br/>
+			</div>
+			<div class="campo">
+    			<label for="senha"> Senha </label><br/>
+				<input type="password" name="senha" id="senha"><br/><br/>
+			</div>
+      			<input type="checkbox" name="remember_me" id="remember_me">
+                <label for="remember_me">Lembre-se de mim</label> <br>
+                <div class="info"> 
+			<a href="esqueci_senha.html">Esqueci a senha</a>
+			<a href="cadastro.html">Novo cadastro</a>
+            </div>
+       			<button type="submit">Login</button>
+		</form>
+</div>
      <footer>
 		© Impacta 2017. Todos os direitos reservados. Política de privacidade.	
     </footer>
