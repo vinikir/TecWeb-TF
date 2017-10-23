@@ -122,5 +122,8 @@ footer{
 	color:white;
 	text-align:center;
 	border:2px solid #ed145b;
-	PADDING:5px
+	PADDING:5px;
+	position:absolut;
+	bottom:0;
+	width:100%;
 }
