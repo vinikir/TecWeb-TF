@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family:roboto;
+	 box-sizing: border-box;
+	
+}
+/*=========MENU===========*/
+.logo{
+	height: 70px;
+	width: 200px;
+	float: left;
+}
+.header{
+	display:grid;
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+}
+nav{
+	display:inline;
+	float:left;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+}
+.item:hover{
+	display: grid;
+	background-color: #ff0080;
+	width:140px;
+	height:80px;
+	display:flex;
+justify-content:center;
+align-items:center;
+}
+.item{
+display:grid;
+width:140px;
+height:80px;
+display:flex;
+justify-content:center;
+align-items:center;
+transition: all 600ms;
+}
+a{
+	padding: 0px 10px;
+	display: inline;
+	color:white;
+	text-decoration: none;
+}
+body{
+	 background-color: black;
+}
+.container1{
+  display:flex;
+  justify-content:space-around;
+	align-items: stretch;
+}
+.container2{
+  display:flex;
+  justify-content:space-around;
+  align-items: stretch;
+}
+h1{
+	color:#ff0080;
+	text-align:center;
+	font-size:28px;
+	text-transform:uppercase;
+	margin:20px;
+	
+}
+.cursos{
+	display:inline-block;
+	display:flex;
+	flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+ 	align-items:center;
+	text-align: center;
+	font-size: 1.5em;
+	height:140px;
+	max-width:100%;
+	color:white;
+	border:1px solid #ff0080;
+	background-color: black;
+}
+.cursos:hover{
+	color:white;
+	border:1px solid #ff0080;
+	background-color: #ff0080;
+}
+footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	border:2px solid #ed145b;
+	PADDING:5px;
+	margin-top:70px;
+}

@@ -1,0 +1,11 @@
+update TB_usuarios
+set foto = @foto
+where
+ra = @ra
+
+select
+ra,nome,foto
+from 
+TB_usuaros
+where
+ra = @ra
