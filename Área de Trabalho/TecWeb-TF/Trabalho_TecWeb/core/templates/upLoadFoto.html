@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Faculdade Impacta</title>
+  {% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'css/estilomenu.css'%}" type="text/css"/>
+	<meta name="Vinicius K. Costa RA: 1701607" />
+	<meta name="kaio vinicius RA: 1701612" />
+</head>
+<body>
+<header>
+		<nav class="menu">
+           <span class="imagem"><img src="img/logo-novo.png" alt="logo" width="170px" height="50px" /></span>
+          	<span class="a"><a href="index">A Impacta</a></span>
+           	<span class="b"><a href="graduacao">Cursos</a></span>
+            <span class="c"><a href="#">Eventos</a></span>
+            <span class="c"><a href="noticias">Noticías</a></span>
+            <span class="e"><a href="#">Blog</a></span>
+            <span class="f"><a href="#">Contatos</a></span>
+			      <span class="f"><a href="novaDisciplina">Nova Disciplina</a></span>
+            <span class="g"><a href="login">Login</a></span>
+    </nav>
+	</header><br/><br/>
+
+	<nav class="mainBanner">
+		<span class="banner"><a href="#"><img src="img/banner-4.png" width="100%" alt="banner"/></a></span>
+	</nav>
+    <span class="faculdade"><h1>Faculdade Impacta</h1><b><br/>
+    <div class="">
+      <form action="" method="post"> {% csrf_token %}
+         Ra do aluno: <input id="RA" type="text" autocomplete="off" onkeyup="somenteNumeros(this);"/><br><br>
+         Upload de Foto:
+          <input type="file"/>
+         <button  value="submit" onclick="fcn_upFoto()">Upload</button>
+
+      </form>
+    </div> 
+<footer>
+    © Impacta 2017. Todos os direitos reservados. Política de privacidade   
+</footer>
+</body>
+</html>
+<script type="text/javascript">
+
+
+  function fcn_upFoto(){
+
+    if(document.getElementById("RA").value == ''){
+      alert('Por favor, preencha o campo RA!!');
+      document.getElementById("RA").focus();
+      return false
+    }
+    if(document.getElementById("foto").value == ''){
+      alert('Por favor, preencha o campo foto!!');
+      document.getElementById("foto").focus();
+      return false
+    }
+    window.location.replace = ("http://localhost:8000/mostraFoto");
+  }  
+
+  function somenteNumeros(num) {
+      var er = /[^0-9.]/;
+      er.lastIndex = 0;
+      var campo = num;
+      if (er.test(campo.value)) {
+        campo.value = "";
+      }
+  }
+
+
+
+</script>
