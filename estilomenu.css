@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700'); /*letra roboto*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}                           /*navegador comtabilizar distancias com a borda*/
+
+
+
+
+body{
+	background-color: black;
+	font-size: 20px;
+	text-decoration: none !important;
+	color:#FFFAFA;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	margin: 0px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
+
+
+/*-----estilo do menu-----------*/
+.menu{
+	display: grid;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	text-align:center;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-family:'roboto',sans-serif;
+}
+
+
+.a{
+	width: 170px;
+	color: white;
+	color:white;
+	font-family:'roboto',sans-serif;
+}
+
+.b{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.c{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.d{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.e{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.f{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.g{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.imagem{
+	position: relative}
+
+
+
+
+.a:hover,.b:hover,.c:hover,.d:hover, .e:hover, .f:hover, .g:hover{
+	display:grid;
+	background-color: #FF1493;
+	height: 50px;
+	align-items: center;
+	}
+
+
+/*----------------------------*/
+.faculdade{text-align: center;}
+
+footer{
+border:2px solid #FF1493;
+color: #FFFAFA;
+border-radius:15PX;
+padding:5px;
+text-align:center;
+}
+
+
+ 
+.sub_cursos ul li {
+	margin-left:150px;
+	width:20px;
+	height:20px;
+	list-style:none;
+	display: inline;
+
+}
+
+.comentUm{border:2px solid #FF1493 ;}
+.comentDois{border:2px solid #FF1493 ;}
+.comentTres{border:2px solid #FF1493 ;}
+.comentQuatro{border:2px solid #FF1493 ;}
+
+.comentarios h1{
+	text-align: center;
+}
+
+.comentarios {
+	display: grid;
+	grid-template-areas:'coment1 coment2 coment3 coment4'
+	
+
+}
+/*-----------------config responsivo---------------*/
+@media only screen and (max-width: 500px) {
+ .teste{display:flex;flex-direction: column;}
+ .mainBanner{width: 100%;}
+ .comentarios{display:flex;flex-direction: column;}
+ .menu{padding: 0px;}
+ .menu a {padding: 0px;}
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+	.imagem{display:none;}
+}
+
+
+
+
+/*-------------------------------------------------*/

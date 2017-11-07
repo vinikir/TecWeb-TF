@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+*{  box-sizing: border-box;}
+
+
+body{
+	background-color: black;
+	color:white;
+	font-family: 'roboto',sans-serif;
+	font-size:20px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	font-family: 'roboto',sans-serif;
+	font-size:22px;
+	font-weight: bolder;
+}
+
+.menu{
+	display: grid;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	text-align:center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.a{
+	width: 170px;
+	color: white;
+}
+
+.b{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.c{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.d{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.e{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.f{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+.g{
+	width: 170px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.imagem{
+	position: relative}
+
+
+
+
+.a:hover,.b:hover,.c:hover,.d:hover, .e:hover, .f:hover, .g:hover{
+	display:grid;
+	background-color: #FF1493;
+	height: 50px;
+	align-items: center;
+	}
+
+
+.bloco1{
+	width: 50%;
+	padding: 20px;
+	border: 2px solid #FF1493;
+
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	grid-template-columns:50% 50%;
+			}
+
+.bloco2{
+	position: relative;
+	width: 50%;
+	padding: 20px;
+	border: 2px solid #FF1493
+}
+
+footer{
+border:2px solid #FF1493;
+color: #FFFAFA;
+border-radius:15PX;
+padding:5px;
+text-align:center;
+}
+
+.redes{
+	display: grid;
+	justify-content: center;
+
+}
+
+.siga{font-size: 25px;}
+
+
+button {background-color: #FF1493;
+		font-family: 'roboto',sans-serif;
+		color:white;
+		font-weight: bolder;
+		border-color: #FF1493;
+		border-radius: 15px;
+		font-size: 18px;}
+
+button:hover{
+	     -moz-transform: scale(1.2);
+         -webkit-transform: scale(1.2);
+         -o-transform: scale(1.2);}
+
+
+.logos{display: flex;
+flex-direction: row;}
+@media only screen and (max-width: 600px) {
+	.container{display: flex;
+				flex-direction: column;}
+	.imagem{
+		position: absolute;
+		display: none;}
+
+}
